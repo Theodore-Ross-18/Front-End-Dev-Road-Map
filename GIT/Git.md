@@ -106,10 +106,43 @@
 
 ## Commit
 
+- ### If you make some changes in a certain file: `git commit` 
+    > this will either lead you to another terminal or to your code editor
 
+- ### Escape in Insert Mode: (Type) `: wq `
 
+> Note: Always use `git status` to check some files that has gone through some changes
 
+- ### Commit with Comment: `git commit -m `Changes Message` <filename>.<extension>`
 
+## Ignore Certain Files
 
+> Inside Git Bash
 
+- ### Create: `touch .gitignore`
 
+- ### Example File: `touch log.txt`
+
+> Inside Code Editor
+
+- ### Edit Txt File: Any Message
+
+- ### Edit gitignore: provide the `<filename>.<extension>`
+
+> Inside Git Bash
+
+- ### If done: `git add .` all Then `git status` to check the current file you can see that the txt file is ignored or skipped.
+
+    > Note: You can also ignore folders but you need to use //foldername to ignore certain a folder
+
+## Branches
+
+- ### Create Branch: `git branch <branchname>`
+
+- ### Change Branch (Master/Main - Other Branch): `git checkout <branchname>`
+
+- ### Merge Two (2) Branch: `git merge <branchname>`
+
+    > This will lead to another terminal editor or code editor to escape use `: wq`
+
+## Remote Repository
